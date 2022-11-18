@@ -55,7 +55,7 @@ function getCords(button) {
     } else {
         cityName = input.value.toUpperCase()
     }
-    fetch('http://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=5&appid=' + apiKey)
+    fetch('https://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=5&appid=' + apiKey)
         .then(response => response.json())
         .then(data => {
             let lat = data[0].lat
