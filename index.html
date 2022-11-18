@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <title>Weather DashBoard</title>
+</head>
+
+<body>
+    <header>
+        <h1>WEATHER DASHBOARD</h1>
+    </header>
+    <div id="container">
+        <aside>
+            <div id="inputArea">
+                <label for="cityInput" id="label">INSERT CITY NAME HERE: </label>
+                <input type="text" id="input" name="cityInput" placeholder="Ex: Atlanta">
+                <button id="submit">SUBMIT</button>
+            </div>
+            <div id="cityList"></div>
+        </aside>
+        <section>
+            <div id="today">
+                <h1 id="currentCity"></h1>
+                <h4 id="currentTemp" class="stats"></h4>
+                <h4 id="currentFeel" class="stats"></h4><br />
+                <h4 id="currentUvi" class="stats"></h4>
+                <h4 id="currentWind" class="stats"></h4>
+                <h4 id="currentHum" class="stats"></h4>
+            </div>
+            <div id="week">
+                <card>
+                    <ul>
+                        <li id="dailyTemp"></li>
+                        <li id="dailyFeel"></li>
+                        <li id="dailyUvi"></li>
+                        <li id="dailyWind"></li>
+                        <li id="dailyHum"></li>
+                    </ul>
+                </card>
+                <card>
+                    <ul>
+                        <li id="dailyTemp"></li>
+                        <li id="dailyFeel"></li>
+                        <li id="dailyUvi"></li>
+                        <li id="dailyWind"></li>
+                        <li id="dailyHum"></li>
+                    </ul>
+                </card>
+                <card>
+                    <ul>
+                        <li id="dailyTemp"></li>
+                        <li id="dailyFeel"></li>
+                        <li id="dailyUvi"></li>
+                        <li id="dailyWind"></li>
+                        <li id="dailyHum"></li>
+                    </ul>
+                </card>
+                <card>
+                    <ul>
+                        <li id="dailyTemp"></li>
+                        <li id="dailyFeel"></li>
+                        <li id="dailyUvi"></li>
+                        <li id="dailyWind"></li>
+                        <li id="dailyHum"></li>
+                    </ul>
+                </card>
+                <card>
+                    <ul>
+                        <li id="dailyTemp"></li>
+                        <li id="dailyFeel"></li>
+                        <li id="dailyUvi"></li>
+                        <li id="dailyWind"></li>
+                        <li id="dailyHum"></li>
+                    </ul>
+                </card>
+            </div>
+        </section>
+        <script src="./script.js"></script>
+    </div>
+</body>
+
+</html>
